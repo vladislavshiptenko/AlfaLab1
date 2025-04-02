@@ -7,5 +7,5 @@
 
 import Foundation
 
-print("Hello, World!")
-
+let app = ConsoleApp(bookShelf: BookShelfImplementation())
+app.run()
